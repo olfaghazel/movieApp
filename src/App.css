@@ -1,0 +1,71 @@
+* {
+  color: white;
+  background-color: black;
+}
+
+/*************************Header******************/
+.header {
+  width: 1100px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+}
+
+.addMovie {
+  height: 40px;
+  font-weight: 500;
+  background-color: black;
+  border: solid white 1px;
+  border-radius: 5px;
+  color: white;
+}
+.addMovie:hover {
+  background-color: white;
+  color: black;
+}
+
+/**************Add Movie************/
+.modalDilalog {
+  background-color: white;
+}
+
+.formControl {
+  margin-bottom: 30px;
+}
+
+/***************MovieCard***************/
+.cardGroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  margin: 15px;
+  transition: all 0.1s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.watchTrailer {
+  height: 40px;
+  font-weight: 500;
+  background-color: transparent;
+  border: solid black 1px;
+  border-radius: 5px;
+  color: black;
+  margin: 0px auto;
+  display: flex;
+  align-content: center;
+}
+
+.watchTrailer:hover {
+  background-color: black;
+  color: white;
+}
+.link:hover {
+  text-decoration: none;
+}
